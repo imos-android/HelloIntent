@@ -1,8 +1,11 @@
-<LinearLayout
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context=".ImplicitIntentActivity">
+
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -10,9 +13,10 @@
         android:text="019-681"
         android:ems="10"
         android:id="@+id/editText"
-        android:layout_gravity="center_horizontal"
-        android:textIsSelectable="false"
-        android:textSize="32sp" />
+        android:typeface="normal"
+        android:textStyle="normal"
+        android:textSize="32sp"
+        android:singleLine="true" />
 
     <Button
         android:layout_width="match_parent"
